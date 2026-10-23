@@ -25,7 +25,7 @@ Private Equity analyst (Goldman Sachs, KKR), now building hands-on AI deployment
 
 | Project | What it shows |
 |---|---|
-| [tennis-scout](https://github.com/mattrogy/tennis-scout) | Scouting reports for tennis coaches: an MCP server with tested stats tools over ~61,800 ATP/WTA matches. Claude writes the report from verified numbers and does not compute them itself. |
+| [tennis-scout](https://github.com/mattrogy/tennis-scout) · [**live demo**](https://tennis-scout-roan.vercel.app) | Scouting reports for tennis coaches, as an MCP server and a public website. Code writes every number and fact from ~61,800 ATP/WTA matches; the AI (Mistral Medium, chosen after comparing 5 models) only writes headlines that code checks. Rate-limited, spend-capped, ~9 s per report. |
 | [hello-openrouter](https://github.com/mattrogy/hello-openrouter) | Asks a Claude and a Mistral model the same question and compares their answers, speed and tokens. |
 
 ## How I work
