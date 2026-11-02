@@ -26,6 +26,7 @@ Private Equity analyst (Goldman Sachs, KKR), now building hands-on AI deployment
 | Project | What it shows |
 |---|---|
 | [tennis-scout](https://github.com/mattrogy/tennis-scout) · [**live demo**](https://tennis-scout-roan.vercel.app) | Scouting reports for tennis coaches, as an MCP server and a public website. Code writes every number and fact from ~61,800 ATP/WTA matches; the AI (Mistral Medium, chosen after comparing 5 models) only writes headlines that code checks. Rate-limited, spend-capped, ~9 s per report. |
+| [defence-tender-watch](https://github.com/mattrogy/defence-tender-watch) | Public-tender watch for defence tech companies: collects EU and French procurement notices (TED + BOAMP), an LLM scores relevance against a company profile, and a one-page French digest lists open calls, early signals and direct awards. Code copies every fact from the official notice and enforces business rules (e.g. a cap for component-only tenders); tested on a 90-day watch of European underwater-drone tenders, with every digest line checked against the official notice. ~1 cent per run. |
 | [hello-openrouter](https://github.com/mattrogy/hello-openrouter) | Asks a Claude and a Mistral model the same question and compares their answers, speed and tokens. |
 
 ## How I work
